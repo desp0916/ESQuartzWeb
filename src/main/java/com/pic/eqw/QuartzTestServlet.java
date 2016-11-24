@@ -42,8 +42,8 @@ public class QuartzTestServlet extends HttpServlet {
 			//
 			// scheduler.scheduleJob(job, trigger);
 			// ----------------------------------
-			// JobStateExample example = new JobStateExample();
-			// example.run(scheduler);
+			JobStateExample example = new JobStateExample();
+			example.run(scheduler);
 			System.out.println(
 					"QuartzServlet###################################");
 
@@ -63,7 +63,7 @@ public class QuartzTestServlet extends HttpServlet {
 					System.out.println(
 							"[jobName] : " + jobName + " [groupName] : "
 									+ jobGroup + " - " + nextFireTime);
-//					 scheduler.deleteJob(jobKey);
+					// scheduler.deleteJob(jobKey);
 				}
 			}
 

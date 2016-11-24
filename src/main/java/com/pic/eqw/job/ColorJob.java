@@ -78,7 +78,6 @@ public class ColorJob implements Job {
 	 * @throws JobExecutionException
 	 *             if there is an exception while executing the job.
 	 */
-	@Override
 	public void execute(JobExecutionContext context)
 			throws JobExecutionException {
 
