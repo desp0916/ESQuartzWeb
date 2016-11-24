@@ -63,7 +63,7 @@ public class QuartzTestServlet extends HttpServlet {
 					System.out.println(
 							"[jobName] : " + jobName + " [groupName] : "
 									+ jobGroup + " - " + nextFireTime);
-					 scheduler.deleteJob(jobKey);
+//					 scheduler.deleteJob(jobKey);
 				}
 			}
 
